@@ -2,6 +2,8 @@
 
 Redesain landing page modern, ceria (*cheerful*), responsif, dan profesional untuk **English Time Indonesia** ("Learning is Happy Time"), kursus bahasa Inggris anak usia 4 sampai dengan 12 tahun dengan metode *fun learning*.
 
+🌐 **Live Demo Website:** [https://ghibran83.github.io/english-time-indonesia/](https://ghibran83.github.io/english-time-indonesia/)
+
 ---
 
 ## 🎨 Preview & Desain
@@ -30,5 +32,5 @@ Redesain landing page modern, ceria (*cheerful*), responsif, dan profesional unt
 
 ---
 
-## 💻 Cara Menjalankan
+## 💻 Cara Menjalankan Secara Lokal
 Cukup buka berkas `index.html` langsung di browser Anda (Google Chrome, Edge, Firefox, Safari). Tidak memerlukan dependensi build atau server khusus.
