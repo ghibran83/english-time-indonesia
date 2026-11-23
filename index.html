@@ -1,0 +1,1285 @@
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>English Time Indonesia | Kursus Bahasa Inggris Anak Fun Learning</title>
+  
+  <!-- SEO & OpenGraph Meta -->
+  <meta name="description" content="English Time merupakan kursusan bahasa inggris untuk anak usia 4 sampai dengan 12 tahun dengan metode fun learning yang menyenangkan dan interaktif.">
+  <meta property="og:title" content="English Time Indonesia - Learning is Happy Time">
+  <meta property="og:description" content="Kursus bahasa Inggris anak usia 4-12 tahun dengan metode fun learning. Listening, Reading, Writing, Speaking melalui aktivitas seru dan Nature Camp.">
+  <meta property="og:image" content="https://static.desty.app/desty-store/englishtimeindonesia/design/e482f2c868804533ba2bbf74846c4a85">
+  <meta property="og:type" content="website">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="https://static.desty.app/desty-store/englishtimeindonesia/design/e482f2c868804533ba2bbf74846c4a85">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Quicksand:wght@500;600;700&display=swap" rel="stylesheet">
+
+  <!-- FontAwesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            brand: {
+              coral: '#FF5A5F',
+              'coral-dark': '#E0484D',
+              yellow: '#FFB703',
+              orange: '#FB8500',
+              blue: '#0284C7',
+              navy: '#0F172A',
+              mint: '#10B981',
+              cream: '#FFFDF9',
+              pastelYellow: '#FEF3C7',
+              pastelBlue: '#E0F2FE',
+              pastelGreen: '#D1FAE5',
+              pastelPurple: '#EDE9FE'
+            }
+          },
+          fontFamily: {
+            fun: ['Fredoka', 'Quicksand', 'sans-serif'],
+            sans: ['"Plus Jakarta Sans"', 'system-ui', 'sans-serif']
+          }
+        }
+      }
+    }
+  </script>
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-brand-cream text-slate-800 antialiased selection:bg-brand-yellow selection:text-brand-navy">
+
+  <!-- ==================== TOP ANNOUNCEMENT BAR ==================== -->
+  <div class="bg-gradient-to-r from-brand-coral via-brand-orange to-brand-yellow text-white py-2 px-4 text-center text-xs sm:text-sm font-medium tracking-wide shadow-sm flex items-center justify-center gap-2 relative z-50">
+    <span class="inline-block animate-bounce">🎁</span>
+    <span><strong>Spesial Promo Registrasi Bulan Ini!</strong> Diskon Biaya Masuk 50% & Free Trial Class untuk 20 pendaftar pertama!</span>
+    <a href="#trial" class="open-trial-modal underline font-bold hover:text-yellow-100 transition ml-2 hidden sm:inline-block">Klaim Promo &rarr;</a>
+  </div>
+
+  <!-- ==================== NAVBAR ==================== -->
+  <header id="mainNavbar" class="sticky top-0 z-40 transition-all duration-300 glass-nav border-b border-amber-100/60">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex items-center justify-between h-20">
+        
+        <!-- Logo Brand -->
+        <a href="#" class="flex items-center gap-3 group">
+          <div class="w-12 h-12 rounded-2xl bg-white p-1.5 shadow-md border-2 border-brand-yellow flex items-center justify-center overflow-hidden group-hover:rotate-6 transition-transform">
+            <img src="https://static.desty.app/desty-store/englishtimeindonesia/design/e482f2c868804533ba2bbf74846c4a85" alt="English Time Indonesia Logo" class="w-full h-full object-contain">
+          </div>
+          <div>
+            <div class="font-fun text-xl sm:text-2xl font-bold tracking-tight text-brand-navy leading-none flex items-center gap-1.5">
+              <span>English Time</span>
+              <span class="text-xs bg-brand-coral text-white font-sans px-2 py-0.5 rounded-full font-bold uppercase tracking-wider">ID</span>
+            </div>
+            <p class="text-xs text-amber-700 font-semibold tracking-wide">Learning is Happy Time ✨</p>
+          </div>
+        </a>
+
+        <!-- Desktop Navigation Links -->
+        <nav class="hidden lg:flex items-center gap-7 text-sm font-semibold text-slate-700">
+          <a href="#beranda" class="hover:text-brand-coral transition-colors py-1">Beranda</a>
+          <a href="#tentang" class="hover:text-brand-coral transition-colors py-1">Tentang Kami</a>
+          <a href="#program" class="hover:text-brand-coral transition-colors py-1">Program Kelas</a>
+          <a href="#metode" class="hover:text-brand-coral transition-colors py-1">Metode & Aktivitas</a>
+          <a href="#galeri" class="hover:text-brand-coral transition-colors py-1">Galeri</a>
+          <a href="#testimoni" class="hover:text-brand-coral transition-colors py-1">Testimoni</a>
+          <a href="#faq" class="hover:text-brand-coral transition-colors py-1">FAQ</a>
+        </nav>
+
+        <!-- CTA & Quick Contacts -->
+        <div class="hidden sm:flex items-center gap-3">
+          <a href="https://instagram.com/englishtimeindonesia" target="_blank" rel="noopener noreferrer" class="w-10 h-10 rounded-xl bg-amber-100/60 text-amber-900 hover:bg-brand-coral hover:text-white flex items-center justify-center transition-all shadow-sm" title="Instagram @englishtimeindonesia">
+            <i class="fa-brands fa-instagram text-lg"></i>
+          </a>
+          <a href="https://wa.me/628170000119?text=Halo%20English%20Time%20Indonesia,%20saya%20ingin%20tanya%20info%20kelas%20dan%20Free%20Trial" target="_blank" class="w-10 h-10 rounded-xl bg-emerald-100 text-emerald-800 hover:bg-emerald-600 hover:text-white flex items-center justify-center transition-all shadow-sm" title="WhatsApp 08170000119">
+            <i class="fa-brands fa-whatsapp text-lg"></i>
+          </a>
+          <button class="open-trial-modal btn-fun-shadow inline-flex items-center gap-2 bg-gradient-to-r from-brand-orange to-brand-yellow text-brand-navy font-bold px-5 py-2.5 rounded-full text-sm font-fun hover:from-amber-500 hover:to-amber-400 transition cursor-pointer">
+            <i class="fa-solid fa-sparkles text-amber-900"></i>
+            <span>Daftar Free Trial</span>
+          </button>
+        </div>
+
+        <!-- Mobile Menu Button -->
+        <button id="mobileMenuBtn" class="lg:hidden p-2 rounded-xl text-slate-700 hover:bg-amber-100 focus:outline-none transition">
+          <i class="fa-solid fa-bars text-2xl"></i>
+        </button>
+
+      </div>
+    </div>
+  </header>
+
+  <!-- ==================== MOBILE MENU DRAWER ==================== -->
+  <div id="mobileBackdrop" class="fixed inset-0 bg-slate-900/60 z-50 hidden opacity-0 transition-opacity duration-300"></div>
+  <div id="mobileDrawer" class="fixed top-0 right-0 bottom-0 w-80 max-w-full bg-white z-50 p-6 flex flex-col justify-between transform translate-x-full transition-transform duration-300 shadow-2xl overflow-y-auto">
+    <div>
+      <div class="flex items-center justify-between pb-4 border-b border-slate-100">
+        <div class="flex items-center gap-2">
+          <img src="https://static.desty.app/desty-store/englishtimeindonesia/design/e482f2c868804533ba2bbf74846c4a85" alt="Logo" class="w-9 h-9 object-contain">
+          <span class="font-fun font-bold text-lg text-brand-navy">English Time</span>
+        </div>
+        <button id="mobileMenuCloseBtn" class="p-2 rounded-lg text-slate-400 hover:text-slate-700 hover:bg-slate-100">
+          <i class="fa-solid fa-xmark text-xl"></i>
+        </button>
+      </div>
+
+      <nav class="flex flex-col gap-3 mt-6 font-semibold text-slate-700 text-base">
+        <a href="#beranda" class="mobile-nav-link p-3 rounded-xl hover:bg-amber-50 hover:text-brand-coral flex items-center justify-between">
+          <span>Beranda</span>
+          <i class="fa-solid fa-chevron-right text-xs text-slate-400"></i>
+        </a>
+        <a href="#tentang" class="mobile-nav-link p-3 rounded-xl hover:bg-amber-50 hover:text-brand-coral flex items-center justify-between">
+          <span>Tentang Kami</span>
+          <i class="fa-solid fa-chevron-right text-xs text-slate-400"></i>
+        </a>
+        <a href="#program" class="mobile-nav-link p-3 rounded-xl hover:bg-amber-50 hover:text-brand-coral flex items-center justify-between">
+          <span>Program Kelas</span>
+          <i class="fa-solid fa-chevron-right text-xs text-slate-400"></i>
+        </a>
+        <a href="#metode" class="mobile-nav-link p-3 rounded-xl hover:bg-amber-50 hover:text-brand-coral flex items-center justify-between">
+          <span>Metode & Aktivitas</span>
+          <i class="fa-solid fa-chevron-right text-xs text-slate-400"></i>
+        </a>
+        <a href="#galeri" class="mobile-nav-link p-3 rounded-xl hover:bg-amber-50 hover:text-brand-coral flex items-center justify-between">
+          <span>Galeri Foto</span>
+          <i class="fa-solid fa-chevron-right text-xs text-slate-400"></i>
+        </a>
+        <a href="#testimoni" class="mobile-nav-link p-3 rounded-xl hover:bg-amber-50 hover:text-brand-coral flex items-center justify-between">
+          <span>Testimoni Orang Tua</span>
+          <i class="fa-solid fa-chevron-right text-xs text-slate-400"></i>
+        </a>
+        <a href="#faq" class="mobile-nav-link p-3 rounded-xl hover:bg-amber-50 hover:text-brand-coral flex items-center justify-between">
+          <span>FAQ (Tanya Jawab)</span>
+          <i class="fa-solid fa-chevron-right text-xs text-slate-400"></i>
+        </a>
+      </nav>
+    </div>
+
+    <div class="pt-6 border-t border-slate-100 flex flex-col gap-3">
+      <button class="open-trial-modal w-full py-3 bg-gradient-to-r from-brand-orange to-brand-yellow text-brand-navy font-bold rounded-xl font-fun text-center shadow-md">
+        🌟 Daftar Free Trial Sekarang
+      </button>
+      <a href="https://wa.me/628170000119?text=Halo%20English%20Time%20Indonesia,%20saya%20ingin%20tanya%20info%20kelas" target="_blank" class="w-full py-3 bg-emerald-500 hover:bg-emerald-600 text-white font-bold rounded-xl text-center flex items-center justify-center gap-2 transition">
+        <i class="fa-brands fa-whatsapp text-lg"></i>
+        <span>Chat WhatsApp Admin</span>
+      </a>
+      <div class="text-center text-xs text-slate-400 pt-2">
+        Jam Operasional: 08:00 - 20:00 WIB
+      </div>
+    </div>
+  </div>
+
+  <!-- ==================== HERO SECTION ==================== -->
+  <section id="beranda" class="relative pt-8 pb-16 md:pt-14 md:pb-24 overflow-hidden pattern-dots">
+    <!-- Decorative Floating Elements -->
+    <div class="absolute top-10 left-8 w-24 h-24 bg-amber-200/40 rounded-full blur-2xl pointer-events-none"></div>
+    <div class="absolute bottom-10 right-10 w-36 h-36 bg-rose-200/40 rounded-full blur-3xl pointer-events-none"></div>
+    
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+        
+        <!-- Left Hero Copy -->
+        <div class="lg:col-span-7 space-y-6 text-center lg:text-left">
+          
+          <!-- Cheerful Tagline Pill -->
+          <div class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-amber-100/80 border border-amber-300 text-amber-900 text-xs sm:text-sm font-bold tracking-wide shadow-sm animate-pulse-subtle">
+            <span class="text-lg">🎈</span>
+            <span>Kursus Bahasa Inggris Anak Usia 4 – 12 Tahun</span>
+            <span class="bg-brand-coral text-white text-[10px] uppercase font-bold px-2 py-0.5 rounded-full">Fun Learning</span>
+          </div>
+
+          <!-- Main Headline -->
+          <h1 class="text-3xl sm:text-5xl lg:text-6xl font-bold font-fun text-brand-navy leading-tight tracking-tight">
+            Learning is <span class="text-gradient-sun squiggly-border">Happy Time!</span> Belajar Bahasa Inggris Penuh Tawa 🌟
+          </h1>
+
+          <!-- Subtitle / Value description -->
+          <p class="text-base sm:text-lg text-slate-600 font-normal leading-relaxed max-w-2xl mx-auto lg:mx-0">
+            Menumbuhkan rasa senang belajar dan keberanian bicara bahasa Inggris sejak dini. 
+            Melalui metode interaktif <strong>Listening, Speaking, Reading, & Writing</strong> dengan storytelling, lagu ceria, role play, dan eksplorasi seru di alam!
+          </p>
+
+          <!-- Interactive Action Buttons -->
+          <div class="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4 pt-2">
+            <button class="open-trial-modal w-full sm:w-auto btn-fun-shadow px-8 py-4 rounded-2xl bg-gradient-to-r from-brand-coral to-brand-orange text-white font-fun font-bold text-lg flex items-center justify-center gap-3 transition transform hover:-translate-y-1">
+              <i class="fa-solid fa-wand-magic-sparkles"></i>
+              <span>Coba Kelas Gratis (Free Trial)</span>
+            </button>
+            <a href="#video-tour" class="w-full sm:w-auto px-6 py-4 rounded-2xl bg-white border-2 border-slate-200 text-slate-700 hover:border-brand-blue hover:text-brand-blue font-bold text-base flex items-center justify-center gap-2 shadow-sm transition">
+              <i class="fa-solid fa-circle-play text-brand-blue text-xl"></i>
+              <span>Lihat Keseruan Kelas</span>
+            </a>
+          </div>
+
+          <!-- Trust Badges -->
+          <div class="pt-6 grid grid-cols-3 gap-3 border-t border-amber-200/60 max-w-lg mx-auto lg:mx-0">
+            <div class="text-center lg:text-left">
+              <div class="font-fun text-2xl sm:text-3xl font-bold text-brand-navy">4 - 12</div>
+              <p class="text-xs text-slate-500 font-medium">Usia Golden Age</p>
+            </div>
+            <div class="text-center lg:text-left">
+              <div class="font-fun text-2xl sm:text-3xl font-bold text-brand-coral">100%</div>
+              <p class="text-xs text-slate-500 font-medium">Fun & No Pressure</p>
+            </div>
+            <div class="text-center lg:text-left">
+              <div class="font-fun text-2xl sm:text-3xl font-bold text-brand-blue">6 - 8</div>
+              <p class="text-xs text-slate-500 font-medium">Anak Per Kelas</p>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Right Hero Visual Showcase -->
+        <div class="lg:col-span-5 relative">
+          <div class="relative mx-auto max-w-md lg:max-w-none">
+            
+            <!-- Cheerful Background Blob -->
+            <div class="absolute -top-6 -left-6 w-72 h-72 bg-amber-300 rounded-3xl rotate-6 filter opacity-70"></div>
+            <div class="absolute -bottom-6 -right-6 w-72 h-72 bg-sky-200 rounded-3xl -rotate-6 filter opacity-70"></div>
+
+            <!-- Main Showcase Card -->
+            <div class="relative bg-white p-3 sm:p-4 rounded-3xl shadow-xl border-4 border-white z-10 fun-card">
+              <div class="relative overflow-hidden rounded-2xl aspect-[4/3] bg-slate-100">
+                <img src="https://static.desty.app/desty-store/englishtimeindonesia/design/50043ad26efc4628a0398b15fa5b7825" alt="Anak-anak belajar bahasa inggris dengan gembira di English Time" class="w-full h-full object-cover">
+                <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent flex items-end p-4">
+                  <div class="text-white">
+                    <span class="bg-brand-yellow text-brand-navy text-xs font-bold px-2.5 py-1 rounded-full uppercase">Kelas Aktif</span>
+                    <h4 class="font-fun font-bold text-lg mt-1">Belajar Tanpa Rasa Takut & Canggung!</h4>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Floating Sticker 1: Top Right -->
+              <div class="absolute -top-5 -right-5 bg-white py-2 px-3.5 rounded-2xl shadow-lg border-2 border-brand-yellow flex items-center gap-2 animate-float">
+                <span class="text-2xl">⭐</span>
+                <div>
+                  <p class="text-[11px] font-bold text-slate-800 leading-tight">4.9/5 Rating</p>
+                  <p class="text-[10px] text-slate-500">Pilihan Orang Tua</p>
+                </div>
+              </div>
+
+              <!-- Floating Sticker 2: Bottom Left -->
+              <div class="absolute -bottom-5 -left-5 bg-white py-2 px-3.5 rounded-2xl shadow-lg border-2 border-emerald-400 flex items-center gap-2.5 animate-float-delayed">
+                <div class="w-9 h-9 rounded-xl bg-emerald-100 flex items-center justify-center text-emerald-600 font-bold">
+                  <i class="fa-solid fa-campground"></i>
+                </div>
+                <div>
+                  <p class="text-[11px] font-bold text-slate-800 leading-tight">Outdoor & Nature Camp</p>
+                  <p class="text-[10px] text-emerald-600 font-semibold">Praktik di Alam Terbuka</p>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== HIGHLIGHT BAR / BRAND VALUES ==================== -->
+  <section class="py-8 bg-white border-y border-amber-100">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
+        
+        <div class="flex flex-col sm:flex-row items-center justify-center gap-3 p-3">
+          <div class="w-12 h-12 rounded-2xl bg-amber-100 text-brand-orange flex items-center justify-center text-xl shrink-0">
+            <i class="fa-solid fa-face-laugh-beam"></i>
+          </div>
+          <div class="text-center sm:text-left">
+            <h4 class="font-fun font-bold text-slate-900 text-base">Fun Learning</h4>
+            <p class="text-xs text-slate-500">Tanpa tekanan, anak enjoy</p>
+          </div>
+        </div>
+
+        <div class="flex flex-col sm:flex-row items-center justify-center gap-3 p-3">
+          <div class="w-12 h-12 rounded-2xl bg-sky-100 text-brand-blue flex items-center justify-center text-xl shrink-0">
+            <i class="fa-solid fa-users"></i>
+          </div>
+          <div class="text-center sm:text-left">
+            <h4 class="font-fun font-bold text-slate-900 text-base">Small Class Size</h4>
+            <p class="text-xs text-slate-500">Maksimal 6-8 siswa/kelas</p>
+          </div>
+        </div>
+
+        <div class="flex flex-col sm:flex-row items-center justify-center gap-3 p-3">
+          <div class="w-12 h-12 rounded-2xl bg-rose-100 text-brand-coral flex items-center justify-center text-xl shrink-0">
+            <i class="fa-solid fa-microphone-lines"></i>
+          </div>
+          <div class="text-center sm:text-left">
+            <h4 class="font-fun font-bold text-slate-900 text-base">Percaya Diri Bicara</h4>
+            <p class="text-xs text-slate-500">Fokus aktif speaking</p>
+          </div>
+        </div>
+
+        <div class="flex flex-col sm:flex-row items-center justify-center gap-3 p-3">
+          <div class="w-12 h-12 rounded-2xl bg-emerald-100 text-emerald-600 flex items-center justify-center text-xl shrink-0">
+            <i class="fa-solid fa-tree"></i>
+          </div>
+          <div class="text-center sm:text-left">
+            <h4 class="font-fun font-bold text-slate-900 text-base">Field Trip & Camp</h4>
+            <p class="text-xs text-slate-500">Belajar langsung di alam</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== TENTANG KAMI (ABOUT US) ==================== -->
+  <section id="tentang" class="py-16 md:py-24 bg-brand-cream relative">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+        
+        <!-- Left Side Image Grid -->
+        <div class="lg:col-span-5 order-2 lg:order-1">
+          <div class="relative">
+            <div class="rounded-3xl overflow-hidden shadow-xl border-4 border-white fun-card">
+              <img src="https://static.desty.app/desty-store/englishtimeindonesia/design/f81e0aff8d284f14a5118ea67a462ed7" alt="Guru dan anak bersemangat di English Time" class="w-full h-80 object-cover">
+            </div>
+            <!-- Secondary Overlapping Card -->
+            <div class="hidden sm:block absolute -bottom-8 -right-6 w-48 bg-white p-3 rounded-2xl shadow-lg border-2 border-amber-200 fun-card">
+              <div class="flex items-center gap-2 mb-1">
+                <span class="w-3 h-3 rounded-full bg-emerald-500"></span>
+                <span class="text-xs font-bold text-slate-800">Metode Teruji</span>
+              </div>
+              <p class="text-[11px] text-slate-600">Menumbuhkan mental berjuang & rasa ingin tahu anak sejak usia dini.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right Side Description -->
+        <div class="lg:col-span-7 order-1 lg:order-2 space-y-6">
+          <div class="inline-block px-3.5 py-1.5 rounded-full bg-rose-100 text-brand-coral font-bold text-xs uppercase tracking-wider">
+            Kenali Kami Lebih Dekat
+          </div>
+          <h2 class="text-3xl sm:text-4xl font-bold font-fun text-brand-navy leading-snug">
+            Membangun Kecintaan Anak Pada Bahasa Inggris, Bukan Sekadar Menghafal.
+          </h2>
+          <p class="text-slate-600 leading-relaxed text-base">
+            Di <strong>English Time Indonesia</strong>, kami percaya bahwa masa kanak-kanak adalah masa emas untuk menyerap bahasa baru. Anak tidak diajarkan dengan sistem hafalan kaku atau rumus yang membosankan.
+          </p>
+          <p class="text-slate-600 leading-relaxed text-base">
+            Sebaliknya, kami menciptakan ekosistem belajar yang penuh warna, rasa aman, dan antusiasme tinggi. Dengan kurikulum yang berfokus pada <em>active engagement</em>, anak-anak berani berekspresi, berinteraksi dengan percaya diri, dan mencintai proses belajar setiap harinya.
+          </p>
+
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-2">
+            <div class="bg-white p-4 rounded-2xl border border-amber-100 shadow-sm flex items-start gap-3">
+              <div class="w-10 h-10 rounded-xl bg-amber-100 text-amber-700 flex items-center justify-center shrink-0 font-bold">
+                <i class="fa-solid fa-heart"></i>
+              </div>
+              <div>
+                <h4 class="font-fun font-bold text-slate-900 text-sm">Kasih Sayang & Kesabaran</h4>
+                <p class="text-xs text-slate-500 mt-0.5">Tutor yang hangat, ramah anak, dan terlatih dalam psikologi perkembangan.</p>
+              </div>
+            </div>
+
+            <div class="bg-white p-4 rounded-2xl border border-amber-100 shadow-sm flex items-start gap-3">
+              <div class="w-10 h-10 rounded-xl bg-sky-100 text-sky-700 flex items-center justify-center shrink-0 font-bold">
+                <i class="fa-solid fa-trophy"></i>
+              </div>
+              <div>
+                <h4 class="font-fun font-bold text-slate-900 text-sm">Karakter & Mental Kuat</h4>
+                <p class="text-xs text-slate-500 mt-0.5">Melatih mental berjuang, kemandirian, dan kerjasama tim sejak dini.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="pt-2">
+            <a href="https://wa.me/628170000119?text=Halo%20Admin%20English%20Time,%20saya%20ingin%20konsultasi%20mengenai%20kesiapan%20anak%20saya" target="_blank" class="inline-flex items-center gap-2 font-bold text-brand-coral hover:text-brand-coral-dark text-sm transition">
+              <span>Konsultasikan Kebutuhan Belajar Anak dengan Tim Kami</span>
+              <i class="fa-solid fa-arrow-right"></i>
+            </a>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ==================== PROGRAM KELAS (CHOOSE YOUR BEST CLASS) ==================== -->
+  <section id="program" class="py-16 md:py-24 bg-white relative">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <!-- Section Header -->
+      <div class="text-center max-w-3xl mx-auto mb-12">
+        <div class="inline-block px-3.5 py-1.5 rounded-full bg-amber-100 text-amber-800 font-bold text-xs uppercase tracking-wider mb-3">
+          Pilihan Kelas Fleksibel
+        </div>
+        <h2 class="text-3xl sm:text-4xl lg:text-5xl font-bold font-fun text-brand-navy">
+          Choose Your Best Class 🎓
+        </h2>
+        <p class="text-slate-600 text-base sm:text-lg mt-3">
+          Terdapat beberapa pilihan kelas yang kami sediakan sesuai dengan tahapan usia dan kebutuhan perkembangan anak Anda.
+        </p>
+
+        <!-- Filter Tab Buttons -->
+        <div class="flex flex-wrap items-center justify-center gap-2 mt-8">
+          <button class="class-filter-btn px-5 py-2.5 rounded-full text-xs sm:text-sm font-bold transition shadow-sm bg-amber-500 text-white" data-filter="all">
+            Semua Program
+          </button>
+          <button class="class-filter-btn px-5 py-2.5 rounded-full text-xs sm:text-sm font-bold transition shadow-sm bg-white text-slate-700 hover:bg-amber-50" data-filter="starter">
+            Little Explorers (4 - 6 Thn)
+          </button>
+          <button class="class-filter-btn px-5 py-2.5 rounded-full text-xs sm:text-sm font-bold transition shadow-sm bg-white text-slate-700 hover:bg-amber-50" data-filter="junior">
+            Junior Achievers (7 - 9 Thn)
+          </button>
+          <button class="class-filter-btn px-5 py-2.5 rounded-full text-xs sm:text-sm font-bold transition shadow-sm bg-white text-slate-700 hover:bg-amber-50" data-filter="senior">
+            Young Leaders (10 - 12 Thn)
+          </button>
+          <button class="class-filter-btn px-5 py-2.5 rounded-full text-xs sm:text-sm font-bold transition shadow-sm bg-white text-slate-700 hover:bg-amber-50" data-filter="camp">
+            Nature Field Trip & Camp
+          </button>
+        </div>
+      </div>
+
+      <!-- Class Cards Grid -->
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+        
+        <!-- Class 1: Little Explorers (4-6 th) -->
+        <div class="class-card flex flex-col justify-between bg-amber-50/50 rounded-3xl p-6 border-2 border-amber-200/80 shadow-sm fun-card relative transition-all duration-300" data-category="starter">
+          <div>
+            <div class="flex justify-between items-start mb-4">
+              <span class="bg-amber-200 text-amber-900 text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wider">Usia 4 - 6 Thn</span>
+              <span class="text-2xl">🧸</span>
+            </div>
+            <h3 class="font-fun text-2xl font-bold text-brand-navy mb-2">Little Explorers</h3>
+            <p class="text-xs text-slate-600 mb-6 leading-relaxed">
+              Fondasi pertama bahasa Inggris yang menyenangkan. Berfokus pada bunyi fonik, lagu, dan keberanian merespons tanpa rasa takut.
+            </p>
+
+            <div class="space-y-3 mb-6 text-xs text-slate-700">
+              <div class="flex items-center gap-2">
+                <i class="fa-solid fa-circle-check text-brand-mint text-sm"></i>
+                <span>Fun Phonics & Basic Vocabulary</span>
+              </div>
+              <div class="flex items-center gap-2">
+                <i class="fa-solid fa-circle-check text-brand-mint text-sm"></i>
+                <span>Singing, Rhymes & Nursery Songs</span>
+              </div>
+              <div class="flex items-center gap-2">
+                <i class="fa-solid fa-circle-check text-brand-mint text-sm"></i>
+                <span>Interactive Storytelling & Puppets</span>
+              </div>
+              <div class="flex items-center gap-2">
+                <i class="fa-solid fa-circle-check text-brand-mint text-sm"></i>
+                <span>Sensory Play & Art Craft</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="pt-4 border-t border-amber-200">
+            <button class="open-trial-modal w-full py-3 rounded-2xl bg-amber-500 hover:bg-amber-600 text-white font-fun font-bold text-sm text-center shadow-md transition" data-program="Little Explorers (4-6 Tahun)">
+              Daftar Kelas Ini
+            </button>
+          </div>
+        </div>
+
+        <!-- Class 2: Junior Achievers (7-9 th) -->
+        <div class="class-card flex flex-col justify-between bg-sky-50/50 rounded-3xl p-6 border-2 border-sky-200/80 shadow-sm fun-card relative transition-all duration-300" data-category="junior">
+          <div class="absolute -top-3 right-6 bg-brand-coral text-white text-[10px] font-bold px-2.5 py-1 rounded-full uppercase tracking-wider shadow">
+            Paling Populer
+          </div>
+          <div>
+            <div class="flex justify-between items-start mb-4">
+              <span class="bg-sky-200 text-sky-900 text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wider">Usia 7 - 9 Thn</span>
+              <span class="text-2xl">🚀</span>
+            </div>
+            <h3 class="font-fun text-2xl font-bold text-brand-navy mb-2">Junior Achievers</h3>
+            <p class="text-xs text-slate-600 mb-6 leading-relaxed">
+              Meningkatkan kelancaran berbicara sehari-hari, membaca buku cerita sederhana, dan tata bahasa praktis lewat permainan peran.
+            </p>
+
+            <div class="space-y-3 mb-6 text-xs text-slate-700">
+              <div class="flex items-center gap-2">
+                <i class="fa-solid fa-circle-check text-brand-mint text-sm"></i>
+                <span>Active Conversational English</span>
+              </div>
+              <div class="flex items-center gap-2">
+                <i class="fa-solid fa-circle-check text-brand-mint text-sm"></i>
+                <span>Story Reading & Guided Comprehension</span>
+              </div>
+              <div class="flex items-center gap-2">
+                <i class="fa-solid fa-circle-check text-brand-mint text-sm"></i>
+                <span>Roleplay Drama & Dialogue Simulator</span>
+              </div>
+              <div class="flex items-center gap-2">
+                <i class="fa-solid fa-circle-check text-brand-mint text-sm"></i>
+                <span>Writing Simple Creative Sentences</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="pt-4 border-t border-sky-200">
+            <button class="open-trial-modal w-full py-3 rounded-2xl bg-sky-600 hover:bg-sky-700 text-white font-fun font-bold text-sm text-center shadow-md transition" data-program="Junior Achievers (7-9 Tahun)">
+              Daftar Kelas Ini
+            </button>
+          </div>
+        </div>
+
+        <!-- Class 3: Young Leaders (10-12 th) -->
+        <div class="class-card flex flex-col justify-between bg-emerald-50/50 rounded-3xl p-6 border-2 border-emerald-200/80 shadow-sm fun-card relative transition-all duration-300" data-category="senior">
+          <div>
+            <div class="flex justify-between items-start mb-4">
+              <span class="bg-emerald-200 text-emerald-900 text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wider">Usia 10 - 12 Thn</span>
+              <span class="text-2xl">🌟</span>
+            </div>
+            <h3 class="font-fun text-2xl font-bold text-brand-navy mb-2">Young Leaders</h3>
+            <p class="text-xs text-slate-600 mb-6 leading-relaxed">
+              Mempersiapkan anak menjadi komunikator andal: public speaking, presentasi percaya diri, dan kesiapan akademis sekolah lanjutan.
+            </p>
+
+            <div class="space-y-3 mb-6 text-xs text-slate-700">
+              <div class="flex items-center gap-2">
+                <i class="fa-solid fa-circle-check text-brand-mint text-sm"></i>
+                <span>Public Speaking & Mini Presentations</span>
+              </div>
+              <div class="flex items-center gap-2">
+                <i class="fa-solid fa-circle-check text-brand-mint text-sm"></i>
+                <span>Critical Thinking & Fun Debates</span>
+              </div>
+              <div class="flex items-center gap-2">
+                <i class="fa-solid fa-circle-check text-brand-mint text-sm"></i>
+                <span>Grammar & Academic Reading Mastery</span>
+              </div>
+              <div class="flex items-center gap-2">
+                <i class="fa-solid fa-circle-check text-brand-mint text-sm"></i>
+                <span>Paragraph Writing & Journaling</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="pt-4 border-t border-emerald-200">
+            <button class="open-trial-modal w-full py-3 rounded-2xl bg-emerald-600 hover:bg-emerald-700 text-white font-fun font-bold text-sm text-center shadow-md transition" data-program="Young Leaders (10-12 Tahun)">
+              Daftar Kelas Ini
+            </button>
+          </div>
+        </div>
+
+        <!-- Class 4: Nature Field Trip & Camp -->
+        <div class="class-card flex flex-col justify-between bg-purple-50/50 rounded-3xl p-6 border-2 border-purple-200/80 shadow-sm fun-card relative transition-all duration-300" data-category="camp">
+          <div class="absolute -top-3 right-6 bg-brand-orange text-white text-[10px] font-bold px-2.5 py-1 rounded-full uppercase tracking-wider shadow">
+            Special Program
+          </div>
+          <div>
+            <div class="flex justify-between items-start mb-4">
+              <span class="bg-purple-200 text-purple-900 text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wider">Semua Usia</span>
+              <span class="text-2xl">🏕️</span>
+            </div>
+            <h3 class="font-fun text-2xl font-bold text-brand-navy mb-2">Field Trip & Camp</h3>
+            <p class="text-xs text-slate-600 mb-6 leading-relaxed">
+              Program immersif di alam terbuka! Belajar bahasa Inggris langsung saat berkemah, menjelajah alam, observasi fauna & flora, dan teamwork.
+            </p>
+
+            <div class="space-y-3 mb-6 text-xs text-slate-700">
+              <div class="flex items-center gap-2">
+                <i class="fa-solid fa-circle-check text-brand-mint text-sm"></i>
+                <span>Real-life English Communication</span>
+              </div>
+              <div class="flex items-center gap-2">
+                <i class="fa-solid fa-circle-check text-brand-mint text-sm"></i>
+                <span>Nature Exploration & Treasure Hunt</span>
+              </div>
+              <div class="flex items-center gap-2">
+                <i class="fa-solid fa-circle-check text-brand-mint text-sm"></i>
+                <span>Campfire Storytelling & Games</span>
+              </div>
+              <div class="flex items-center gap-2">
+                <i class="fa-solid fa-circle-check text-brand-mint text-sm"></i>
+                <span>Melatih Kemandirian & Karakter</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="pt-4 border-t border-purple-200">
+            <button class="open-trial-modal w-full py-3 rounded-2xl bg-purple-600 hover:bg-purple-700 text-white font-fun font-bold text-sm text-center shadow-md transition" data-program="Nature Field Trip & Camp">
+              Daftar Program Ini
+            </button>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Bottom Note on Program -->
+      <div class="mt-12 bg-amber-50 rounded-2xl p-6 border border-amber-200 text-center max-w-3xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-4">
+        <div class="text-left">
+          <h4 class="font-fun font-bold text-brand-navy text-base">Bingung menentukan level yang cocok untuk si kecil?</h4>
+          <p class="text-xs text-slate-600">Dapatkan evaluasi & free trial assessment gratis bersama konsultan pendidikan kami.</p>
+        </div>
+        <button class="open-trial-modal shrink-0 px-5 py-2.5 rounded-xl bg-brand-coral hover:bg-brand-coral-dark text-white font-bold text-xs uppercase tracking-wider transition">
+          Konsultasi Gratis Sekarang
+        </button>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ==================== 4 SKILLS & 8 AKTIVITAS (ACTIVITIES) ==================== -->
+  <section id="metode" class="py-16 md:py-24 bg-brand-cream relative pattern-dots-yellow">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="text-center max-w-3xl mx-auto mb-16">
+        <div class="inline-block px-3.5 py-1.5 rounded-full bg-brand-coral/10 text-brand-coral font-bold text-xs uppercase tracking-wider mb-3">
+          Kurikulum Terpadu
+        </div>
+        <h2 class="text-3xl sm:text-4xl lg:text-5xl font-bold font-fun text-brand-navy">
+          4 Pilar Keterampilan & 8 Aktivitas Seru 🎨
+        </h2>
+        <p class="text-slate-600 text-base sm:text-lg mt-3">
+          Kami menyeimbangkan <strong>Listening, Reading, Writing, dan Speaking</strong> secara natural melalui aktivitas yang disukai anak-anak!
+        </p>
+      </div>
+
+      <!-- 4 Core Pillars Pills -->
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mb-12">
+        <div class="bg-white p-5 rounded-2xl border-2 border-amber-200 text-center fun-card shadow-sm">
+          <div class="w-12 h-12 mx-auto rounded-2xl bg-amber-100 text-amber-600 flex items-center justify-center text-xl mb-3">
+            <i class="fa-solid fa-headphones"></i>
+          </div>
+          <h4 class="font-fun font-bold text-lg text-brand-navy">Listening</h4>
+          <p class="text-xs text-slate-500 mt-1">Terbiasa mendengarkan pelafalan asli (native sounds) melalui cerita & lagu.</p>
+        </div>
+
+        <div class="bg-white p-5 rounded-2xl border-2 border-sky-200 text-center fun-card shadow-sm">
+          <div class="w-12 h-12 mx-auto rounded-2xl bg-sky-100 text-sky-600 flex items-center justify-center text-xl mb-3">
+            <i class="fa-solid fa-comments"></i>
+          </div>
+          <h4 class="font-fun font-bold text-lg text-brand-navy">Speaking</h4>
+          <p class="text-xs text-slate-500 mt-1">Berani berbicara santai, bertanya, dan bercerita tanpa takut dikoreksi kasar.</p>
+        </div>
+
+        <div class="bg-white p-5 rounded-2xl border-2 border-rose-200 text-center fun-card shadow-sm">
+          <div class="w-12 h-12 mx-auto rounded-2xl bg-rose-100 text-brand-coral flex items-center justify-center text-xl mb-3">
+            <i class="fa-solid fa-book-open-reader"></i>
+          </div>
+          <h4 class="font-fun font-bold text-lg text-brand-navy">Reading</h4>
+          <p class="text-xs text-slate-500 mt-1">Membaca buku bergambar seru, mengasah imajinasi dan kosakata baru.</p>
+        </div>
+
+        <div class="bg-white p-5 rounded-2xl border-2 border-emerald-200 text-center fun-card shadow-sm">
+          <div class="w-12 h-12 mx-auto rounded-2xl bg-emerald-100 text-emerald-600 flex items-center justify-center text-xl mb-3">
+            <i class="fa-solid fa-pen-nib"></i>
+          </div>
+          <h4 class="font-fun font-bold text-lg text-brand-navy">Writing</h4>
+          <p class="text-xs text-slate-500 mt-1">Menuangkan ide kreatif menjadi tulisan ekspresif dengan bertahap.</p>
+        </div>
+      </div>
+
+      <!-- 8 Activity Grid -->
+      <h3 class="text-center font-fun text-2xl font-bold text-brand-navy mb-8">
+        8 Aktivitas Andalan di English Time Indonesia
+      </h3>
+
+      <div class="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 gap-4 sm:gap-6">
+        
+        <div class="activity-card bg-white p-5 rounded-3xl border border-slate-100 shadow-sm fun-card text-center">
+          <div class="activity-badge w-14 h-14 mx-auto rounded-2xl bg-amber-100 text-amber-600 flex items-center justify-center text-2xl mb-3 transition-transform duration-300">
+            📖
+          </div>
+          <h4 class="font-fun font-bold text-base text-brand-navy">Story Telling</h4>
+          <p class="text-xs text-slate-500 mt-1">Dongeng interaktif penuh boneka & ekspresi seru.</p>
+        </div>
+
+        <div class="activity-card bg-white p-5 rounded-3xl border border-slate-100 shadow-sm fun-card text-center">
+          <div class="activity-badge w-14 h-14 mx-auto rounded-2xl bg-rose-100 text-brand-coral flex items-center justify-center text-2xl mb-3 transition-transform duration-300">
+            🎵
+          </div>
+          <h4 class="font-fun font-bold text-base text-brand-navy">Singing & Songs</h4>
+          <p class="text-xs text-slate-500 mt-1">Bernyanyi lagu ceria untuk melatih aksen alami.</p>
+        </div>
+
+        <div class="activity-card bg-white p-5 rounded-3xl border border-slate-100 shadow-sm fun-card text-center">
+          <div class="activity-badge w-14 h-14 mx-auto rounded-2xl bg-sky-100 text-sky-600 flex items-center justify-center text-2xl mb-3 transition-transform duration-300">
+            🎬
+          </div>
+          <h4 class="font-fun font-bold text-base text-brand-navy">Watching & Movies</h4>
+          <p class="text-xs text-slate-500 mt-1">Menonton video edukatif & mendiskusikan pesan moral.</p>
+        </div>
+
+        <div class="activity-card bg-white p-5 rounded-3xl border border-slate-100 shadow-sm fun-card text-center">
+          <div class="activity-badge w-14 h-14 mx-auto rounded-2xl bg-purple-100 text-purple-600 flex items-center justify-center text-2xl mb-3 transition-transform duration-300">
+            🎭
+          </div>
+          <h4 class="font-fun font-bold text-base text-brand-navy">Role Play Drama</h4>
+          <p class="text-xs text-slate-500 mt-1">Bermain peran jadi koki, dokter, astronot & detektif.</p>
+        </div>
+
+        <div class="activity-card bg-white p-5 rounded-3xl border border-slate-100 shadow-sm fun-card text-center">
+          <div class="activity-badge w-14 h-14 mx-auto rounded-2xl bg-emerald-100 text-emerald-600 flex items-center justify-center text-2xl mb-3 transition-transform duration-300">
+            💬
+          </div>
+          <h4 class="font-fun font-bold text-base text-brand-navy">Dialogue Practice</h4>
+          <p class="text-xs text-slate-500 mt-1">Percakapan dua arah melatih respons cepat & alami.</p>
+        </div>
+
+        <div class="activity-card bg-white p-5 rounded-3xl border border-slate-100 shadow-sm fun-card text-center">
+          <div class="activity-badge w-14 h-14 mx-auto rounded-2xl bg-orange-100 text-orange-600 flex items-center justify-center text-2xl mb-3 transition-transform duration-300">
+            🏃
+          </div>
+          <h4 class="font-fun font-bold text-base text-brand-navy">Outdoor Activities</h4>
+          <p class="text-xs text-slate-500 mt-1">Permainan fisik dan kinestetik di luar ruangan.</p>
+        </div>
+
+        <div class="activity-card bg-white p-5 rounded-3xl border border-slate-100 shadow-sm fun-card text-center">
+          <div class="activity-badge w-14 h-14 mx-auto rounded-2xl bg-teal-100 text-teal-600 flex items-center justify-center text-2xl mb-3 transition-transform duration-300">
+            🌿
+          </div>
+          <h4 class="font-fun font-bold text-base text-brand-navy">Nature Field Trip</h4>
+          <p class="text-xs text-slate-500 mt-1">Kunjungan ke kebun raya, museum, & tempat seru.</p>
+        </div>
+
+        <div class="activity-card bg-white p-5 rounded-3xl border border-slate-100 shadow-sm fun-card text-center">
+          <div class="activity-badge w-14 h-14 mx-auto rounded-2xl bg-lime-100 text-lime-700 flex items-center justify-center text-2xl mb-3 transition-transform duration-300">
+            🏕️
+          </div>
+          <h4 class="font-fun font-bold text-base text-brand-navy">Nature Camp</h4>
+          <p class="text-xs text-slate-500 mt-1">Kemah akhir pekan dengan full immersion English.</p>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ==================== VIDEO TOUR SHOWCASE ==================== -->
+  <section id="video-tour" class="py-16 md:py-24 bg-white relative">
+    <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="text-center max-w-2xl mx-auto mb-10">
+        <div class="inline-block px-3.5 py-1.5 rounded-full bg-red-100 text-red-600 font-bold text-xs uppercase tracking-wider mb-3">
+          Video Keseruan Kelas
+        </div>
+        <h2 class="text-3xl sm:text-4xl font-bold font-fun text-brand-navy">
+          Intip Suasana Seru di English Time 🎥
+        </h2>
+        <p class="text-slate-600 text-sm sm:text-base mt-2">
+          Lihat bagaimana senyum dan tawa mengalir di setiap sesi pembelajaran kami.
+        </p>
+      </div>
+
+      <!-- Video Player Wrapper -->
+      <div class="relative bg-slate-900 rounded-3xl overflow-hidden shadow-2xl border-4 border-amber-300 aspect-video">
+        
+        <!-- Video Placeholder with Play Button -->
+        <div id="videoPlaceholder" class="relative w-full h-full flex items-center justify-center bg-slate-900 cursor-pointer group">
+          <img src="https://static.desty.app/desty-store/englishtimeindonesia/design/324043cad3e44b4881089ae0a6af37a8" alt="Video English Time Indonesia" class="w-full h-full object-cover opacity-60 group-hover:opacity-40 transition-opacity">
+          
+          <button id="videoPlayBtn" class="absolute w-20 h-20 sm:w-24 sm:h-24 rounded-full bg-brand-coral hover:bg-brand-coral-dark text-white flex items-center justify-center text-3xl shadow-2xl transition transform group-hover:scale-110">
+            <i class="fa-solid fa-play ml-1"></i>
+          </button>
+          
+          <div class="absolute bottom-6 left-6 text-white text-left">
+            <span class="bg-brand-yellow text-brand-navy text-xs font-bold px-3 py-1 rounded-full uppercase">Official Video</span>
+            <h4 class="font-fun font-bold text-xl sm:text-2xl mt-2 drop-shadow">English Time Indonesia: Learning is Happy Time</h4>
+          </div>
+        </div>
+
+        <!-- Video Iframe Container (Loaded on click) -->
+        <div id="videoIframeContainer" class="hidden w-full h-full">
+          <iframe 
+            class="w-full h-full"
+            src="" 
+            title="English Time Indonesia Video" 
+            frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+            allowfullscreen>
+          </iframe>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ==================== GALERI KEGIATAN & FOTO ==================== -->
+  <section id="galeri" class="py-16 md:py-24 bg-brand-cream relative">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="text-center max-w-3xl mx-auto mb-12">
+        <div class="inline-block px-3.5 py-1.5 rounded-full bg-sky-100 text-sky-700 font-bold text-xs uppercase tracking-wider mb-3">
+          Momen Ceria
+        </div>
+        <h2 class="text-3xl sm:text-4xl lg:text-5xl font-bold font-fun text-brand-navy">
+          Galeri Dokumentasi English Time 📸
+        </h2>
+        <p class="text-slate-600 text-base sm:text-lg mt-3">
+          Setiap momen bersama kami diisi dengan antusiasme, kreativitas, dan persahabatan baru.
+        </p>
+      </div>
+
+      <!-- Photo Gallery Grid -->
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        
+        <div class="group relative rounded-3xl overflow-hidden shadow-md bg-white border-2 border-white fun-card">
+          <img src="https://static.desty.app/desty-store/englishtimeindonesia/design/6b468e494e324fa699cfd49bd5aed272" alt="Aktivitas kelas English Time 1" class="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-500">
+          <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex items-end p-5 text-white">
+            <div>
+              <p class="font-fun font-bold text-lg">Aktivitas Kolaboratif</p>
+              <p class="text-xs text-amber-200">Bermain dan belajar kelompok penuh energi</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="group relative rounded-3xl overflow-hidden shadow-md bg-white border-2 border-white fun-card">
+          <img src="https://static.desty.app/desty-store/englishtimeindonesia/design/267a340b97264dcd83c06a9dc149c47e" alt="Aktivitas kelas English Time 2" class="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-500">
+          <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex items-end p-5 text-white">
+            <div>
+              <p class="font-fun font-bold text-lg">Storytelling & Role Play</p>
+              <p class="text-xs text-amber-200">Mengekspresikan diri tanpa canggung</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="group relative rounded-3xl overflow-hidden shadow-md bg-white border-2 border-white fun-card">
+          <img src="https://static.desty.app/desty-store/englishtimeindonesia/design/51b0860b67d146e6a274235ebb564b9b" alt="Aktivitas kelas English Time 3" class="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-500">
+          <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex items-end p-5 text-white">
+            <div>
+              <p class="font-fun font-bold text-lg">Interactive Fun Games</p>
+              <p class="text-xs text-amber-200">Kosa kata baru diserap lewat games seru</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="group relative rounded-3xl overflow-hidden shadow-md bg-white border-2 border-white fun-card">
+          <img src="https://static.desty.app/desty-store/englishtimeindonesia/design/324043cad3e44b4881089ae0a6af37a8" alt="Aktivitas Outdoor English Time" class="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-500">
+          <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex items-end p-5 text-white">
+            <div>
+              <p class="font-fun font-bold text-lg">Outdoor Exploration</p>
+              <p class="text-xs text-amber-200">Mengenal alam sekitar dengan kosakata bahasa Inggris</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="group relative rounded-3xl overflow-hidden shadow-md bg-white border-2 border-white fun-card">
+          <img src="https://static.desty.app/desty-store/englishtimeindonesia/design/f81e0aff8d284f14a5118ea67a462ed7" alt="Kebersamaan Guru dan Murid" class="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-500">
+          <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex items-end p-5 text-white">
+            <div>
+              <p class="font-fun font-bold text-lg">Tutor Hangat & Bersahabat</p>
+              <p class="text-xs text-amber-200">Perhatian penuh dan bimbingan yang tulus</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="group relative rounded-3xl overflow-hidden shadow-md bg-white border-2 border-white fun-card">
+          <img src="https://static.desty.app/desty-store/englishtimeindonesia/design/50043ad26efc4628a0398b15fa5b7825" alt="Kegiatan Belajar Ceria" class="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-500">
+          <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex items-end p-5 text-white">
+            <div>
+              <p class="font-fun font-bold text-lg">Suasana Kelas Interaktif</p>
+              <p class="text-xs text-amber-200">Setiap anak mendapat kesempatan berbicara aktif</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Instagram Callout -->
+      <div class="text-center mt-10">
+        <a href="https://instagram.com/englishtimeindonesia" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2.5 px-6 py-3 rounded-full bg-white hover:bg-brand-coral hover:text-white text-slate-800 font-bold border-2 border-slate-200 transition shadow-sm">
+          <i class="fa-brands fa-instagram text-xl text-rose-500 group-hover:text-white"></i>
+          <span>Lihat Lebih Banyak Kegiatan di Instagram @englishtimeindonesia</span>
+        </a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ==================== TESTIMONI ORANG TUA (REVIEWS) ==================== -->
+  <section id="testimoni" class="py-16 md:py-24 bg-white relative">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="text-center max-w-3xl mx-auto mb-16">
+        <div class="inline-block px-3.5 py-1.5 rounded-full bg-emerald-100 text-emerald-700 font-bold text-xs uppercase tracking-wider mb-3">
+          Kata Orang Tua
+        </div>
+        <h2 class="text-3xl sm:text-4xl lg:text-5xl font-bold font-fun text-brand-navy">
+          Cerita Bahagia Dari Ayah & Bunda 💬
+        </h2>
+        <p class="text-slate-600 text-base sm:text-lg mt-3">
+          Simak bagaimana English Time mengubah rasa malu menjadi rasa percaya diri bagi si kecil.
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        
+        <!-- Review 1 -->
+        <div class="bg-brand-cream p-7 rounded-3xl border-2 border-amber-200/60 shadow-sm fun-card flex flex-col justify-between">
+          <div>
+            <div class="flex text-amber-400 text-sm gap-1 mb-4">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <p class="text-slate-700 text-sm leading-relaxed italic mb-6">
+              "Dulu anak saya pemalu banget kalau disuruh ngomong bahasa Inggris di sekolah. Tapi setelah 3 bulan di English Time, dia sekarang suka nyanyi lagu bahasa Inggris sendiri di rumah dan berani nyapa turis waktu liburan! Gurunya asyik dan sabar banget."
+            </p>
+          </div>
+          <div class="flex items-center gap-3 pt-4 border-t border-amber-100">
+            <div class="w-11 h-11 rounded-full bg-rose-200 flex items-center justify-center font-bold text-rose-700">
+              BA
+            </div>
+            <div>
+              <h4 class="font-fun font-bold text-slate-900 text-sm">Bunda Astrid</h4>
+              <p class="text-[11px] text-slate-500">Mama dari Kenzo (Usia 6 Thn)</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Review 2 -->
+        <div class="bg-brand-cream p-7 rounded-3xl border-2 border-sky-200/60 shadow-sm fun-card flex flex-col justify-between">
+          <div>
+            <div class="flex text-amber-400 text-sm gap-1 mb-4">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <p class="text-slate-700 text-sm leading-relaxed italic mb-6">
+              "Yang paling saya suka ada program Nature Camp dan Field Trip. Anak saya nggak cuma diam di ruangan ber-AC, tapi belajar berinteraksi langsung di alam terbuka. Benar-benar metode fun learning yang bikin anak nagih buat berangkat les!"
+            </p>
+          </div>
+          <div class="flex items-center gap-3 pt-4 border-t border-sky-100">
+            <div class="w-11 h-11 rounded-full bg-sky-200 flex items-center justify-center font-bold text-sky-700">
+              AP
+            </div>
+            <div>
+              <h4 class="font-fun font-bold text-slate-900 text-sm">Ayah Prasetyo</h4>
+              <p class="text-[11px] text-slate-500">Papa dari Ayla (Usia 8 Thn)</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Review 3 -->
+        <div class="bg-brand-cream p-7 rounded-3xl border-2 border-emerald-200/60 shadow-sm fun-card flex flex-col justify-between">
+          <div>
+            <div class="flex text-amber-400 text-sm gap-1 mb-4">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <p class="text-slate-700 text-sm leading-relaxed italic mb-6">
+              "Kelasnya cuma 6 anak, jadi perhatian gurunya merata sekali. Setiap bulan ada report card dan video perkembangan anak. Senang rasanya melihat anak saya antusias dan bangga dengan kemampuannya sendiri!"
+            </p>
+          </div>
+          <div class="flex items-center gap-3 pt-4 border-t border-emerald-100">
+            <div class="w-11 h-11 rounded-full bg-emerald-200 flex items-center justify-center font-bold text-emerald-700">
+              MD
+            </div>
+            <div>
+              <h4 class="font-fun font-bold text-slate-900 text-sm">Mama Dian</h4>
+              <p class="text-[11px] text-slate-500">Mama dari Mikaela (Usia 10 Thn)</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ==================== FAQ (PERTANYAAN UMUM) ==================== -->
+  <section id="faq" class="py-16 md:py-24 bg-brand-cream relative pattern-dots">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="text-center max-w-2xl mx-auto mb-14">
+        <div class="inline-block px-3.5 py-1.5 rounded-full bg-purple-100 text-purple-700 font-bold text-xs uppercase tracking-wider mb-3">
+          Tanya Jawab
+        </div>
+        <h2 class="text-3xl sm:text-4xl font-bold font-fun text-brand-navy">
+          Pertanyaan Sering Diajukan (FAQ) ❓
+        </h2>
+        <p class="text-slate-600 text-sm sm:text-base mt-2">
+          Punya pertanyaan sebelum mendaftarkan buah hati? Temukan jawabannya di bawah ini.
+        </p>
+      </div>
+
+      <!-- Accordion List -->
+      <div class="space-y-4">
+        
+        <!-- FAQ 1 -->
+        <div class="faq-item bg-white rounded-2xl border border-slate-200 transition-all overflow-hidden shadow-sm">
+          <button class="faq-question w-full py-4 px-6 text-left font-fun font-bold text-base sm:text-lg text-brand-navy flex items-center justify-between gap-4">
+            <span>Apakah anak saya bisa mengikuti Free Trial Class terlebih dahulu?</span>
+            <i class="faq-icon fa-solid fa-chevron-down text-brand-orange text-sm transition-transform duration-300"></i>
+          </button>
+          <div class="faq-answer hidden px-6 pb-5 text-sm text-slate-600 leading-relaxed border-t border-slate-100 pt-3">
+            Ya, tentu saja! Kami menyediakan sesi <strong>Free Trial Class</strong> agar Ayah & Bunda serta si kecil bisa merasakan langsung suasana kelas, mengenal cara mengajar guru kami, dan melihat apakah metode kami cocok untuk anak Anda sebelum mendaftar resmi.
+          </div>
+        </div>
+
+        <!-- FAQ 2 -->
+        <div class="faq-item bg-white rounded-2xl border border-slate-200 transition-all overflow-hidden shadow-sm">
+          <button class="faq-question w-full py-4 px-6 text-left font-fun font-bold text-base sm:text-lg text-brand-navy flex items-center justify-between gap-4">
+            <span>Berapa batas usia anak yang dapat bergabung di English Time?</span>
+            <i class="faq-icon fa-solid fa-chevron-down text-brand-orange text-sm transition-transform duration-300"></i>
+          </button>
+          <div class="faq-answer hidden px-6 pb-5 text-sm text-slate-600 leading-relaxed border-t border-slate-100 pt-3">
+            English Time dirancang khusus untuk anak usia <strong>4 sampai dengan 12 tahun</strong>. Kurikulum kami dibagi berdasarkan rentang usia dan kemampuan (Little Explorers 4-6 th, Junior Achievers 7-9 th, dan Young Leaders 10-12 th).
+          </div>
+        </div>
+
+        <!-- FAQ 3 -->
+        <div class="faq-item bg-white rounded-2xl border border-slate-200 transition-all overflow-hidden shadow-sm">
+          <button class="faq-question w-full py-4 px-6 text-left font-fun font-bold text-base sm:text-lg text-brand-navy flex items-center justify-between gap-4">
+            <span>Berapa jumlah maksimal anak di setiap kelas?</span>
+            <i class="faq-icon fa-solid fa-chevron-down text-brand-orange text-sm transition-transform duration-300"></i>
+          </button>
+          <div class="faq-answer hidden px-6 pb-5 text-sm text-slate-600 leading-relaxed border-t border-slate-100 pt-3">
+            Kami menjaga komitmen <em>Small Class Size</em> dengan maksimal <strong>6 hingga 8 anak per kelas</strong>. Dengan rasio kecil ini, setiap anak dipastikan mendapatkan giliran berbicara aktif dan perhatian penuh dari tutor.
+          </div>
+        </div>
+
+        <!-- FAQ 4 -->
+        <div class="faq-item bg-white rounded-2xl border border-slate-200 transition-all overflow-hidden shadow-sm">
+          <button class="faq-question w-full py-4 px-6 text-left font-fun font-bold text-base sm:text-lg text-brand-navy flex items-center justify-between gap-4">
+            <span>Apakah ada tes penempatan (placement test) untuk anak?</span>
+            <i class="faq-icon fa-solid fa-chevron-down text-brand-orange text-sm transition-transform duration-300"></i>
+          </button>
+          <div class="faq-answer hidden px-6 pb-5 text-sm text-slate-600 leading-relaxed border-t border-slate-100 pt-3">
+            Bukan tes formal yang menegangkan, melainkan <em>fun friendly conversation assessment</em> saat trial class. Tutor kami akan mengamati kenyamanan anak dalam menyerap instruksi dan menentukan kelas yang paling sesuai agar anak tidak merasa tertinggal atau bosan.
+          </div>
+        </div>
+
+        <!-- FAQ 5 -->
+        <div class="faq-item bg-white rounded-2xl border border-slate-200 transition-all overflow-hidden shadow-sm">
+          <button class="faq-question w-full py-4 px-6 text-left font-fun font-bold text-base sm:text-lg text-brand-navy flex items-center justify-between gap-4">
+            <span>Bagaimana jika anak belum pernah belajar bahasa Inggris sama sekali?</span>
+            <i class="faq-icon fa-solid fa-chevron-down text-brand-orange text-sm transition-transform duration-300"></i>
+          </button>
+          <div class="faq-answer hidden px-6 pb-5 text-sm text-slate-600 leading-relaxed border-t border-slate-100 pt-3">
+            Tidak masalah sama sekali! Sebagian besar murid pemula di English Time memulai dari nol. Tutor kami sangat berpengalaman dalam membimbing anak pemula melalui visual flashcards, gestur tubuh, lagu, dan pendekatan tanpa rasa takut bersalah.
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ==================== CALL TO ACTION BANNER ==================== -->
+  <section id="trial" class="py-16 bg-gradient-to-r from-brand-coral via-brand-orange to-brand-yellow relative overflow-hidden text-white">
+    <!-- Background Sparkles -->
+    <div class="absolute -top-10 -right-10 w-60 h-60 bg-white/10 rounded-full blur-2xl"></div>
+    <div class="absolute -bottom-10 -left-10 w-60 h-60 bg-yellow-400/20 rounded-full blur-2xl"></div>
+
+    <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center">
+      <span class="inline-block px-4 py-1.5 rounded-full bg-white/20 backdrop-blur-md text-white text-xs font-bold uppercase tracking-wider mb-4">
+        ✨ Kuota Terbatas Setiap Bulannya
+      </span>
+      <h2 class="text-3xl sm:text-5xl font-bold font-fun mb-4 drop-shadow-sm">
+        Siap Melihat Si Kecil Percaya Diri Bicara Bahasa Inggris? 🚀
+      </h2>
+      <p class="text-white/90 text-base sm:text-lg max-w-2xl mx-auto mb-8 font-medium">
+        Daftarkan sekarang untuk mendapatkan <strong>Free Trial Class</strong> dan konsultasi penempatan level gratis langsung dengan tim edukasi kami.
+      </p>
+
+      <div class="flex flex-col sm:flex-row items-center justify-center gap-4">
+        <button class="open-trial-modal w-full sm:w-auto px-8 py-4 bg-brand-navy hover:bg-slate-800 text-white rounded-2xl font-fun font-bold text-lg shadow-xl hover:-translate-y-0.5 transition flex items-center justify-center gap-3">
+          <i class="fa-solid fa-calendar-check text-brand-yellow"></i>
+          <span>Klaim Free Trial Class</span>
+        </button>
+        <a href="https://wa.me/628170000119?text=Halo%20English%20Time%20Indonesia,%20saya%20tertarik%20tanya%20info%20pendaftaran%20kelas" target="_blank" class="w-full sm:w-auto px-8 py-4 bg-white/90 hover:bg-white text-brand-orange rounded-2xl font-fun font-bold text-lg shadow-lg hover:-translate-y-0.5 transition flex items-center justify-center gap-3">
+          <i class="fa-brands fa-whatsapp text-emerald-600 text-xl"></i>
+          <span>Hubungi CS (0817-0000-119)</span>
+        </a>
+      </div>
+
+      <p class="text-xs text-white/80 mt-4">
+        *Jam Pelayanan Customer Service: Setiap Hari, 08:00 - 20:00 WIB
+      </p>
+    </div>
+  </section>
+
+  <!-- ==================== FOOTER ==================== -->
+  <footer class="bg-brand-navy text-slate-300 pt-16 pb-12 border-t-4 border-brand-yellow">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-10 pb-12 border-b border-slate-800">
+        
+        <!-- Col 1: Brand & Bio -->
+        <div class="lg:col-span-5 space-y-4">
+          <div class="flex items-center gap-3">
+            <div class="w-12 h-12 rounded-2xl bg-white p-1.5 shadow flex items-center justify-center overflow-hidden">
+              <img src="https://static.desty.app/desty-store/englishtimeindonesia/design/e482f2c868804533ba2bbf74846c4a85" alt="English Time Logo" class="w-full h-full object-contain">
+            </div>
+            <div>
+              <div class="font-fun text-2xl font-bold text-white tracking-tight leading-none">English Time Indonesia</div>
+              <p class="text-xs text-brand-yellow font-semibold tracking-wide">Learning is Happy Time ✨</p>
+            </div>
+          </div>
+          <p class="text-slate-400 text-xs sm:text-sm leading-relaxed max-w-sm">
+            Kursusan bahasa Inggris anak usia 4 sampai dengan 12 tahun dengan metode fun learning. Menumbuhkan perasaan senang belajar dan terlatih mental berjuangnya sejak dini.
+          </p>
+          <div class="flex items-center gap-3 pt-2">
+            <a href="https://instagram.com/englishtimeindonesia" target="_blank" rel="noopener noreferrer" class="w-9 h-9 rounded-xl bg-slate-800 hover:bg-brand-coral hover:text-white flex items-center justify-center text-slate-300 transition" title="Instagram">
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a href="https://wa.me/628170000119" target="_blank" class="w-9 h-9 rounded-xl bg-slate-800 hover:bg-emerald-600 hover:text-white flex items-center justify-center text-slate-300 transition" title="WhatsApp">
+              <i class="fa-brands fa-whatsapp"></i>
+            </a>
+            <a href="https://www.youtube.com/watch?v=90VnBP4RvzA" target="_blank" rel="noopener noreferrer" class="w-9 h-9 rounded-xl bg-slate-800 hover:bg-red-600 hover:text-white flex items-center justify-center text-slate-300 transition" title="YouTube">
+              <i class="fa-brands fa-youtube"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Col 2: Program Links -->
+        <div class="lg:col-span-2 space-y-3">
+          <h4 class="font-fun font-bold text-white text-base">Program Kelas</h4>
+          <ul class="space-y-2 text-xs sm:text-sm text-slate-400">
+            <li><a href="#program" class="hover:text-brand-yellow transition">Little Explorers (4-6 th)</a></li>
+            <li><a href="#program" class="hover:text-brand-yellow transition">Junior Achievers (7-9 th)</a></li>
+            <li><a href="#program" class="hover:text-brand-yellow transition">Young Leaders (10-12 th)</a></li>
+            <li><a href="#program" class="hover:text-brand-yellow transition">Nature Field Trip & Camp</a></li>
+            <li><a href="#program" class="hover:text-brand-yellow transition">Private Intensive</a></li>
+          </ul>
+        </div>
+
+        <!-- Col 3: Quick Navigation -->
+        <div class="lg:col-span-2 space-y-3">
+          <h4 class="font-fun font-bold text-white text-base">Navigasi Cepat</h4>
+          <ul class="space-y-2 text-xs sm:text-sm text-slate-400">
+            <li><a href="#beranda" class="hover:text-brand-yellow transition">Beranda</a></li>
+            <li><a href="#tentang" class="hover:text-brand-yellow transition">Tentang Kami</a></li>
+            <li><a href="#metode" class="hover:text-brand-yellow transition">Metode & Aktivitas</a></li>
+            <li><a href="#galeri" class="hover:text-brand-yellow transition">Galeri Kegiatan</a></li>
+            <li><a href="#faq" class="hover:text-brand-yellow transition">Tanya Jawab (FAQ)</a></li>
+          </ul>
+        </div>
+
+        <!-- Col 4: Contact & Operations -->
+        <div class="lg:col-span-3 space-y-3">
+          <h4 class="font-fun font-bold text-white text-base">Kontak & Layanan</h4>
+          <ul class="space-y-3 text-xs sm:text-sm text-slate-400">
+            <li class="flex items-start gap-2.5">
+              <i class="fa-solid fa-phone text-brand-yellow mt-1"></i>
+              <span>0817-0000-119 (Customer Service)</span>
+            </li>
+            <li class="flex items-start gap-2.5">
+              <i class="fa-brands fa-whatsapp text-emerald-400 mt-1"></i>
+              <span>Konsultasi & Pendaftaran WhatsApp</span>
+            </li>
+            <li class="flex items-start gap-2.5">
+              <i class="fa-solid fa-clock text-brand-coral mt-1"></i>
+              <span>Jam Layanan: 08:00 – 20:00 WIB</span>
+            </li>
+            <li class="flex items-start gap-2.5">
+              <i class="fa-brands fa-instagram text-rose-400 mt-1"></i>
+              <span>@englishtimeindonesia</span>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+
+      <!-- Copyright -->
+      <div class="pt-8 flex flex-col sm:flex-row items-center justify-between text-xs text-slate-500 gap-4">
+        <p>&copy; 2026 English Time Indonesia. All rights reserved. Learning is Happy Time.</p>
+        <p>Redesigned with ❤️ for a cheerful & professional learning experience.</p>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- ==================== FLOATING WHATSAPP BUTTON ==================== -->
+  <div class="fixed bottom-6 right-6 z-40 flex items-center gap-3">
+    <div class="hidden md:flex items-center bg-white py-2 px-3.5 rounded-full shadow-lg border border-slate-200 text-xs font-semibold text-slate-700 animate-float">
+      <span>Tanya Admin English Time yuk! 👋</span>
+    </div>
+    <a href="https://wa.me/628170000119?text=Halo%20English%20Time%20Indonesia,%20saya%20ingin%20tanya%20info%20kelas%20dan%20Free%20Trial" target="_blank" class="w-14 h-14 rounded-full bg-emerald-500 hover:bg-emerald-600 text-white flex items-center justify-center text-3xl shadow-xl transition-all transform hover:scale-110 relative" title="Chat WhatsApp Sekarang">
+      <i class="fa-brands fa-whatsapp"></i>
+      <span class="absolute top-0 right-0 w-3.5 h-3.5 bg-brand-coral rounded-full ring-2 ring-white animate-ping"></span>
+    </a>
+  </div>
+
+  <!-- ==================== FREE TRIAL MODAL ==================== -->
+  <div id="trialModal" class="fixed inset-0 z-50 hidden items-center justify-center p-4">
+    <div id="modalBackdrop" class="fixed inset-0 bg-slate-900/60 backdrop-blur-sm modal-overlay"></div>
+    
+    <div class="relative bg-white w-full max-w-lg rounded-3xl shadow-2xl p-6 sm:p-8 z-10 border-4 border-amber-300 modal-content overflow-y-auto max-h-[90vh]">
+      
+      <!-- Close Button -->
+      <button id="closeModalBtn" class="absolute top-4 right-4 w-9 h-9 rounded-full bg-slate-100 hover:bg-slate-200 text-slate-600 flex items-center justify-center transition">
+        <i class="fa-solid fa-xmark text-lg"></i>
+      </button>
+
+      <!-- Modal Header -->
+      <div class="text-center mb-6">
+        <div class="w-12 h-12 mx-auto rounded-2xl bg-amber-100 text-brand-orange flex items-center justify-center text-2xl mb-2">
+          🎁
+        </div>
+        <h3 class="font-fun text-2xl font-bold text-brand-navy">Daftar Free Trial Class</h3>
+        <p class="text-xs sm:text-sm text-slate-500 mt-1">
+          Isi form singkat di bawah, tim kami akan langsung mengonfirmasi jadwal trial via WhatsApp.
+        </p>
+      </div>
+
+      <!-- Registration Form -->
+      <form id="trialForm" class="space-y-4">
+        <div>
+          <label class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-1" for="formParentName">Nama Orang Tua / Wali *</label>
+          <input type="text" id="formParentName" required placeholder="Contoh: Bunda Sarah" class="w-full px-4 py-3 rounded-xl border border-slate-200 text-sm focus:border-brand-orange focus:ring-2 focus:ring-amber-200 outline-none transition">
+        </div>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+          <div>
+            <label class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-1" for="formChildName">Nama Anak *</label>
+            <input type="text" id="formChildName" required placeholder="Contoh: Rafa" class="w-full px-4 py-3 rounded-xl border border-slate-200 text-sm focus:border-brand-orange focus:ring-2 focus:ring-amber-200 outline-none transition">
+          </div>
+          <div>
+            <label class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-1" for="formChildAge">Usia Anak (Tahun) *</label>
+            <input type="number" id="formChildAge" min="4" max="12" required placeholder="Contoh: 6" class="w-full px-4 py-3 rounded-xl border border-slate-200 text-sm focus:border-brand-orange focus:ring-2 focus:ring-amber-200 outline-none transition">
+          </div>
+        </div>
+
+        <div>
+          <label class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-1" for="formProgram">Pilihan Kelas / Minat *</label>
+          <select id="formProgram" class="w-full px-4 py-3 rounded-xl border border-slate-200 text-sm focus:border-brand-orange focus:ring-2 focus:ring-amber-200 outline-none transition bg-white">
+            <option value="Little Explorers (4-6 Tahun)">Little Explorers (4 - 6 Tahun)</option>
+            <option value="Junior Achievers (7-9 Tahun)">Junior Achievers (7 - 9 Tahun)</option>
+            <option value="Young Leaders (10-12 Tahun)">Young Leaders (10 - 12 Tahun)</option>
+            <option value="Nature Field Trip & Camp">Nature Field Trip & Camp Special</option>
+            <option value="Belum Yakin (Konsultasi Dulu)">Belum Yakin (Butuh Rekomendasi Tutor)</option>
+          </select>
+        </div>
+
+        <div>
+          <label class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-1" for="formNotes">Catatan / Harapan (Opsional)</label>
+          <textarea id="formNotes" rows="2" placeholder="Contoh: Anak saya masih agak pemalu, ingin lebih berani bicara..." class="w-full px-4 py-2.5 rounded-xl border border-slate-200 text-sm focus:border-brand-orange focus:ring-2 focus:ring-amber-200 outline-none transition"></textarea>
+        </div>
+
+        <button type="submit" class="w-full py-3.5 rounded-2xl bg-gradient-to-r from-brand-orange to-brand-yellow text-brand-navy font-fun font-bold text-base shadow-lg hover:from-amber-500 hover:to-amber-400 transition cursor-pointer flex items-center justify-center gap-2">
+          <i class="fa-brands fa-whatsapp text-lg"></i>
+          <span>Kirim & Jadwalkan via WhatsApp</span>
+        </button>
+
+        <p class="text-[11px] text-slate-400 text-center">
+          🔒 Data Anda aman dan hanya digunakan untuk keperluan konfirmasi jadwal kelas.
+        </p>
+      </form>
+
+    </div>
+  </div>
+
+  <!-- JavaScript -->
+  <script src="main.js"></script>
+</body>
+</html>
